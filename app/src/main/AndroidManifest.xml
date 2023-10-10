@@ -13,6 +13,9 @@
         android:theme="@style/Theme.CalCounter"
         tools:targetApi="31">
         <activity
+            android:name=".FoodItemDetailsActivity"
+            android:exported="false" />
+        <activity
             android:name=".DisplayFoodsActivity"
             android:exported="false" />
         <activity
